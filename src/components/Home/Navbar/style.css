@@ -1,0 +1,46 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1600px;
+    background-color: #7579e7;
+}
+
+.Navbar h1{
+    font-size: 2rem;
+    color: white;
+}
+
+.login{
+    display: flex;
+    margin-left: auto;
+}
+
+.login a{
+    display: flex;
+    font-size: 1.2rem;
+    margin: 10px;
+    cursor: pointer;
+    color: white !important;
+}
+
+.login a:hover{
+    color: #9ab3f5 !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .Navbar h1{
+        margin: 4px;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1500px) {
+    .Navbar {
+        width: auto;
+    }
+
+    .Navbar h1{
+        font-size: 1.8rem;
+    }
+}
