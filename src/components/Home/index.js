@@ -38,7 +38,7 @@ function Home() {
                     <div id="materias">
                         <Card titulo="1º Ensino Médio" img="https://www.flaticon.com/svg/static/icons/svg/3174/3174914.svg" link="ensinoMedio1" />
                         <Card titulo="2º Ensino Médio" img="https://www.flaticon.com/svg/static/icons/svg/3174/3174720.svg" link="ensinoMedio2" />
-                        <Card titulo="3º Ensino Médio" img="https://www.flaticon.com/svg/static/icons/svg/1344/1344761.svg" link="ensinoMedio3" />
+                        <Card titulo="3º Ensino Médio" img="https://www.flaticon.com/svg/static/icons/svg/3174/3174822.svg" link="ensinoMedio3" />
                     </div>
                 </div>
             </div>
