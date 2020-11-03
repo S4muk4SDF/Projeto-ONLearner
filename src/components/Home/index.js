@@ -1,7 +1,9 @@
 import React from 'react';
 
 import './style.css'
+
 import NavBar from './Navbar'
+import Card from './Card'
 
 function Home() {
     return (
@@ -9,7 +11,7 @@ function Home() {
         <div>
             <NavBar />
 
-            {/* <div id="main">
+            <div id="main">
                 <div className="info_Lateral">
                     <div className="info_Perfil">
                         <img src="https://scontent-gru2-2.xx.fbcdn.net/v/t1.0-9/100547180_1725110200974479_261654694777061376_o.jpg?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=V-EY_G2ycEYAX-J36nS&_nc_ht=scontent-gru2-2.xx&oh=d20deb2bf58a486b0e7289d9e6f9d559&oe=5FC2308F" />
@@ -39,7 +41,7 @@ function Home() {
                         <Card titulo="3º Ensino Médio" img="https://www.flaticon.com/svg/static/icons/svg/1344/1344761.svg" link="ensinoMedio3" />
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     );
 }
