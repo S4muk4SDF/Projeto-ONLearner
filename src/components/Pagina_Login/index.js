@@ -5,6 +5,7 @@ import './style.css';
 
 function Pagina_Login() {
     return (
+        document.title = "ONLearner - Login",
         <div id="main_Login">
 
             <div id="card_sign_in">

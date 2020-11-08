@@ -1,0 +1,25 @@
+#main_Pagina_Materias {
+    max-width: 1500px;
+    height: fit-content;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#main_Pagina_Materias h1 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#materias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    height: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* background-color: blue; */
+}
